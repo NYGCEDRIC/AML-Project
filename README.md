@@ -55,7 +55,7 @@ aml-pipeline/
 
 ## 🧠 Author
 
-Cedric Nyagatare  
+Cedric Nyagatare
 Data Engineer @ Citi (AML Team)
 
 ---
