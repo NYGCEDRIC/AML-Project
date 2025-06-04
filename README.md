@@ -15,21 +15,16 @@ To ingest, transform, and analyze large-scale financial transactions and detect 
 - **Orchestration & Automation:** AWS Lambda, Shell Scripts
 - **Language:** Python (PySpark), SQL
 
-## 🗂️ Project Structure
-aml-pipeline/
-│
-├── ingestion/
-│ └── lambda_s3_trigger.py
-├── processing/
-│ └── spark_etl.py
-├── detection/
-│ └── anomaly_detection.py
-├── snowflake/
-│ └── snowpipe_setup.sql
-├── data/
-│ └── sample_data.csv
-├── README.md
-└── requirements.txt
+## 📦 Project Structure
+
+- `ingestion/lambda_s3_trigger.py` – AWS Lambda function triggered by S3 uploads
+- `processing/spark_etl.py` – Spark ETL job for data transformation
+- `detection/anomaly_detection.py` – Logic for anomaly detection (rule-based + ML)
+- `snowflake/snowpipe_setup.sql` – SQL script for setting up Snowpipe ingestion
+- `data/sample_data.csv` – Sample financial transactions
+- `requirements.txt` – Python dependency file
+- `README.md` – Project documentation
+
 
 
 ## 📊 Features
