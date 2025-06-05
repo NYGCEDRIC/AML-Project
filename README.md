@@ -26,7 +26,6 @@ To ingest, transform, and analyze large-scale financial transactions and detect 
 - `README.md` – Project documentation
 
 
-
 ## 📊 Features
 - Ingests transaction logs into S3
 - Cleans and enriches data using PySpark on EMR
@@ -45,7 +44,7 @@ To ingest, transform, and analyze large-scale financial transactions and detect 
 - Real-time ingestion via Kinesis
 - Graph-based laundering ring detection
 - Streamlit dashboard for visual analytics
-
+ 
 ---
 
 ## 🧠 Author
